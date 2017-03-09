@@ -43,3 +43,5 @@ if __name__ == '__main__':
 * ``BaseGHCallback(class).request()``  发送请求，``reponse()``会回调请求结果
 
 ## 自动化点赞和评论 [Instagram](https://github.com/xiyouMc/SpiderFramework/tree/master/Instagram)
+
+如果觉得对你有帮助，麻烦Star。 么么哒 欢迎PR
