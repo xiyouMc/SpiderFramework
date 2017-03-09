@@ -1,7 +1,7 @@
 import sys
 import re
 import os
-sys.path.append("..")
+# sys.path.append("..")
 from BaseGHCallback import BaseGHCallback
 class GHRaw(BaseGHCallback):
     def headersFile(self):
