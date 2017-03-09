@@ -2,7 +2,7 @@ from distutils.core import setup
 
 setup(
     name='spiderframework',
-    version='1.0.5',
+    version='1.0.6',
     packages=[''],
     url='https://www.github.com/xiyouMc/SpiderFramework',
     license='',

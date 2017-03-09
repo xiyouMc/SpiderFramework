@@ -1,5 +1,3 @@
-import os,sys
-sys.path.append("../../GHCrawFramwork")
 from BaseGHCallback import BaseGHCallback
 class GHComment(BaseGHCallback):
     def api(self):
