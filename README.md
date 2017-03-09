@@ -1,5 +1,8 @@
 # SpiderFramework
 网络爬虫框架，可基于Raw包进行请求并回调拿到请求结果，支持自定义数据包
+# Install
+
+``pip install spiderframework`` 安装Spider框架
 
 # BaseGHCallback.py
 > 需要爬的功能类继承自BashGHCallback,如下（点赞和评论Instagram）:
@@ -35,6 +38,9 @@ if __name__ == '__main__':
 ```
 
 ## Usage
+
+* pip install spiderframework 
+* 继承BaseGHCallback,并使用其中的类
 
 > 你需要做的就是去抓包或者通过其他自动化工具，将你的Headers信息填充到对应文件。  并通过 ``headersFile``返回该文件目录。
 
