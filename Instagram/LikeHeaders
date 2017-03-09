@@ -1,0 +1,25 @@
+:method: POST
+:authority: www.instagram.com
+:scheme: https
+:path: /web/likes/1449825299633270787/like/
+content-length: 0
+origin: https://www.instagram.com
+x-instagram-ajax: 1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+content-type: application/x-www-form-urlencoded
+accept: */*
+x-requested-with: XMLHttpRequest
+x-csrftoken: DQdcF4dfL20K9Tek6S1OaD7QJotINSC7
+referer: https://www.instagram.com/p/BQe0G2zA_AD/?taken-by=mc923x
+accept-encoding: gzip, deflate, br
+accept-language: zh-CN,zh;q=0.8,en;q=0.6
+cookie: mid=WLPrhQAEAAG49SMPtnfCCMJnRXbj
+cookie: fbm_124024574287414=base_domain=.instagram.com
+cookie: sessionid=IGSC817e7469a880f23f408544b51335c9002199a972389f0933364d16dda479a84a%3ACl9fLCLx2cbXezMvqhrWiH8IIq2F7X0M%3A%7B%22_platform%22%3A4%2C%22_token%22%3A%221700101646%3ATcYEYbzTUvoBrVGXM8uRY50jE1HKSV3Q%3A588d4251757bdcf2085a6e0055a787e8c755f2c472480db628df00806c019c64%22%2C%22asns%22%3A%7B%22time%22%3A1489030389%2C%22103.206.191.168%22%3A135391%7D%2C%22_auth_user_hash%22%3A%22%22%2C%22last_refreshed%22%3A1489030390.3414512%2C%22_auth_user_backend%22%3A%22accounts.backends.CaseInsensitiveModelBackend%22%2C%22_auth_user_id%22%3A1700101646%2C%22_token_ver%22%3A2%7D
+cookie: ig_vw=1280
+cookie: ig_pr=2
+cookie: fbsr_124024574287414=o85lmCLZ_Xg5SYeHLBBUvV4xm1NQTaBRRvYGwn33OsI.eyJhbGdvcml0aG0iOiJITUFDLVNIQTI1NiIsImNvZGUiOiJBUUFWdDctUTBVYm9kTGtERTMzTFVzQS1pS1VPYnBUQUJPTDJTMGFIdTJPdzVDMmxtZ2liTGFXUFRVVDQ3TzJBQmoyZXpMRVBxNmZlNkljYkxtZkNWSkpUN0VJVkhjRTE0NnFOWnhZNW81RU5GQkxodm9peGVvZWI3c3hTVGNHX21TdkVVSlZWVWt1VjA5WDBkMzUwVnJWekxZdTRNaXYyRnJfQlp5Q2xEQ2l4Mmc5UE5JZ1A5d3BqRzdHMV9DNmNPTENqc1NMaTNhUEU5LTNuczgtMVN6LUp1VDQ2MDVoM0s2c2toTS1BOExUN29Ud1NUTDVEWTg2Uy1keklLUlU4Z1NhZng3QUpna0ZjR1lXMU41UDFnNjN6NTR4UFQtc0ZVQjFRNzlsTVhwOUlmZU4yQlFvb0tFQlhPXzlQakRmMFd3bjJUUWZVTkpRaEVuZDZNTkxaTk9HciIsImlzc3VlZF9hdCI6MTQ4OTA0NjQzNywidXNlcl9pZCI6IjEwMDAwODU0MjMyMjkxNyJ9
+cookie: csrftoken=DQdcF4dfL20K9Tek6S1OaD7QJotINSC7
+cookie: s_network=""
+cookie: ds_user_id=1700101646
+
