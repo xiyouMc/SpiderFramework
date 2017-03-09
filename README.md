@@ -2,7 +2,7 @@
 网络爬虫框架，可基于Raw包进行请求并回调拿到请求结果，支持自定义数据包
 # Install
 
-``pip install spiderframework`` 安装Spider框架
+``pip install spiderframework``
 
 # BaseGHCallback.py
 > 需要爬的功能类继承自BashGHCallback,如下（点赞和评论Instagram）:
