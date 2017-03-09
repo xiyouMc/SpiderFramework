@@ -38,8 +38,8 @@ if __name__ == '__main__':
 ## Usage
 
 * pip install spiderframework 
-* 继承BaseGHCallback,并使用其中的类
-* 你需要做的就是去抓包或者通过其他自动化工具，将你的Headers信息填充到对应文件。  并通过 ``headersFile``返回该文件目录。
+* 继承BaseGHCallback
+* 抓包或者通过其他自动化工具，将你的Raw信息保存到对应文件。  并通过 ``headersFile``返回该文件目录。
 * ``BaseGHCallback(class).request()``  发送请求，``reponse()``会回调请求结果
 
 ## 自动化点赞和评论 [Instagram](https://github.com/xiyouMc/SpiderFramework/tree/master/Instagram)
