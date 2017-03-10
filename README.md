@@ -9,11 +9,7 @@
 
 重要的方法解释：
 
-`headersFile` : raw包的文件，可通过其他自动化脚本或者抓包填充
-
 `api` : 要请求的Api接口
-
-`data`: Post请求使用的数据
 
 `reponse`: 请求成功之后的回调，包括Cookies 和 Content
 
@@ -23,14 +19,10 @@
 # 评论
 import os,sys
 class GHComment(BaseGHCallback):
-    def headersFile(self):
-        return 'CommentHeaders'
     def api(self):
         return 'https://www.instagram.com/web/comments/1465340700102125550/add/'
-    def data(self):
-        return {'comment_text':'Wow'}
-    def response(self,cookies,content):
-        print content
+    def response(self,res):
+        print res
 if __name__ == '__main__':
         BaseGHCallback(GHComment).request()
 ```
@@ -39,8 +31,9 @@ if __name__ == '__main__':
 
 * pip install spiderframework 
 * 继承BaseGHCallback
-* 抓包或者通过其他自动化工具，将你的Raw信息保存到对应文件。  并通过 ``headersFile``返回该文件目录。
-* ``BaseGHCallback(class).request()``  发送请求，``reponse()``会回调请求结果
+* 抓包或者通过其他自动化工具，将你的Raw信息保存到 `data`文件中。
+* ``BaseGHCallback(class).httpRequest()``  发送Http请求，``reponse()``会回调请求结果
+* ``BaseGHCallback(class).tcpRequest()``  发送tcp请求，response同上
 
 ## 自动化点赞和评论 [Instagram](https://github.com/xiyouMc/SpiderFramework/tree/master/Instagram)
 

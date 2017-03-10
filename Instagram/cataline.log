@@ -1,2 +1,0 @@
-Thu, 09 Mar 2017 20:02:44 connectionpool.py[line:788] INFO Starting new HTTPS connection (1): www.instagram.com
-Thu, 09 Mar 2017 20:02:50 connectionpool.py[line:395] DEBUG "POST /web/comments/1465340700102125550/add/ HTTP/1.1" 200 233

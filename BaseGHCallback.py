@@ -1,7 +1,8 @@
 #coding:utf-8
 import sys
 sys.path.append("../..")
-import Request
+import HttpRequest
+import TCPRequest
 '''
 BaseGHCallback is a craw framework.
 You can create a file with the name 'data', which stores raw data
@@ -29,7 +30,12 @@ class BaseGHCallback(object):
     def response(self,res):
         pass
     '''
-        BaseGHCallback(Demo).request()
+        BaseGHCallback(Demo).httpRequest()
     '''
-    def request(self):
-        Request.ghNetWork(self.call)
+    def httpRequest(self):
+        HttpRequest.ghNetWork(self.call)
+    '''
+        BaseGHCallback(Demo).tcpRequest()
+    '''
+    def tcpRequest(self):
+        TCPRequest.tcpRequest(self.call)

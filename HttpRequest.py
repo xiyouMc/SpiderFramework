@@ -20,13 +20,16 @@ formatter = logging.Formatter(
 console.setFormatter(formatter)
 logging.getLogger('').addHandler(console)
 #################################################################################################
-def ghNetWork(callback):
-    call = callback('')
+def ghNetWork(RequestModel):
+    call = RequestModel('')
     headers,data,httpPost = headerAndBody()
     _result = requests.post(call.api(), headers=headers,data=data) if httpPost else requests.get(call.api(), headers=headers,data=data)
     call.response(_result)
 
 def headerAndBody():
+    if not os.path.exists('data'):
+        logging.error('not have data file')
+        return '','',''
     f = open('data','r')
     lines = f.readlines()
     f.close()
